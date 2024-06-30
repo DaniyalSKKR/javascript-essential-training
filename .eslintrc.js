@@ -2,7 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    node: true
+    node: true,
   },
   extends: "eslint:recommended",
   parserOptions: {
@@ -10,4 +10,5 @@ module.exports = {
     sourceType: "module",
   },
   rules: {},
+  "parser": "@babel/eslint-parser" //added
 };
